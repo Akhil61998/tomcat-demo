@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet {
 
         response.setContentType("text/plain");
         response.getWriter()
-                .println("Hello from Java Tomcat!");
+                .println("Hello from Java Tomcat!....");
     }
 }
 
